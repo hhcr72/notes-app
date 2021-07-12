@@ -1,0 +1,25 @@
+body
+{
+background-color : rgb(231, 229, 229);
+/*padding: 1em;*/
+}
+
+#cont-principal {
+    background-color: #ffff;
+    border-radius: .7em;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  /* notas */
+  .card {
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+  }
+  .form-control {
+    padding: 0.5em;
+  }
+
+  

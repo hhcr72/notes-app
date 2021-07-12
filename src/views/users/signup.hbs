@@ -1,0 +1,27 @@
+<div class="col-md-4 mx-auto">
+    <div class="card text-center">
+        <div class="card-header">
+            <h3>Acount Register</h3>
+        </div>
+        <img src="/img/logo_transparent.png" class="rounded-circle mx-auto d.block col-md-6">
+        <div class="card-boody">
+            <form action="/users/signup" method="POST">
+                <div class="mb-3">
+                    <input type="text" name="name" class="form-control" value="{{name}}" placeholder="Name" autofocus>
+                </div>
+                <div class="mb-3">
+                    <input type="email" name="email" class="form-control" value="{{email}}" placeholder="Email Address">
+                </div>
+                <div class="mb-3">
+                    <input type="password" name="password" class="form-control" placeholder="Password" >
+                </div>
+                <div class="mb-3">
+                    <input type="password" name="confirm_password" class="form-control" placeholder="Confirm Password">
+                </div>
+                <div class="mb-1 d-grid gap-2">
+                    <button class="btn btn-primary btn-block">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
