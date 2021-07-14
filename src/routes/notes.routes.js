@@ -42,6 +42,7 @@ router.delete('/notes/delete/:id', isAuthenticated, deleteNote);
     //let URLerror = req.originalUrl;
     //res.render('400', {texoError: URLerror});
 //});
+//router.get('*', e400);
 
 
 module.exports = router; 
